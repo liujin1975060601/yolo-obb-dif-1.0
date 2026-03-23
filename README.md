@@ -1,7 +1,6 @@
-YOLO-OBB-DIF 1.0
+OBCD 1.0
 
-OBCD-Net: OBject-Level Change Detection in
-Non-Aligned Remote Sensing Images
+OBCD-Net: OBject-Level Change Detection in Non-Aligned Remote Sensing Images
 Zhe Xing, Jin Liu∗, Zhenfeng Shao, Biyin Zhang, Yaorong Cen, Miaozhong Xu
 
 | |
