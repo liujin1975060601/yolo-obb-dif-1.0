@@ -1,0 +1,25 @@
+#path: /media/liu/088d8f6e-fca3-4aed-871f-243ad962413b/datas/dota1.5  #4090
+#path: /media/liu/f4854541-32b0-4d00-84a6-13d3a5dd30f2/datas/dota1.5 #4090-2
+#path: /data/datas/dota1.5 # 2x4090svr
+path: /media/liu/a2254a68-9f90-4b44-ab2a-ffc55b361238/datas/dota1.5  #zh3090
+#path: /home/liu/data/home/liu/workspace/darknet/datas/dota1.5  darknet-524
+#path: /media/data4T/datas/dota1.5   #709-4090
+#path: /media/liu/124CDDC24CDDA0B1/datas/dota1.5  #3060
+#path: /data/liujin/workspace/data/dota1.5  #A100-g1
+#path: /sgg/liujin/workspace/data/dota1.5  #A100-sd2
+#path: E:/datas/dota1.5  #windows
+
+train: [patches/images]
+val: val/patches/images
+val_big: val/images
+# bkgrd: /media/liu/088d8f6e-fca3-4aed-871f-243ad962413b/datas/marine2/aquarium/train/images
+
+# nc: 16
+names: ['plane','ship','storage-tank', 'baseball-diamond',
+'tennis-court','basketball-court','ground-track-field', 'harbor',
+'bridge', 'large-vehicle','small-vehicle', 'helicopter', 
+'roundabout', 'soccer-ball-field', 'swimming-pool', 'cc']
+
+val_epoch: 0
+val_epoch_T: 1
+val_count: 0

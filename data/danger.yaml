@@ -1,0 +1,17 @@
+# danger
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+# path: /media/liu/088d8f6e-fca3-4aed-871f-243ad962413b/datas/danger  #4090
+#path: /media/liu/f4854541-32b0-4d00-84a6-13d3a5dd30f2/datas/danger #4090-2
+#path: /data/datas/danger #svr 2x4090
+#path: /media/liu/a2254a68-9f90-4b44-ab2a-ffc55b361238/datas/danger  #zh3090
+path: E:/datas/danger  # dataset root dir
+
+train: images  # train images (relative to 'path') 118287 images
+val: images  # train images (relative to 'path') 5000 images
+test: images  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+
+# Classes
+nc: 6  # number of classes
+names: ['triangle_horizontal', 'triangle_vertical', 'triangle_oblique', 'dangerous_goods', 'dangerous', 'carplate']  # class names
+
+

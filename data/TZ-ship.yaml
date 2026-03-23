@@ -1,0 +1,20 @@
+#path: /media/liu/088d8f6e-fca3-4aed-871f-243ad962413b/datas/SAR-TZ-ship  #4090
+#path: /media/liu/f4854541-32b0-4d00-84a6-13d3a5dd30f2/datas/SAR-TZ-ship #4090-2
+#path: /home/user/workspace/datas/SAR-TZ-ship #svr 2x4090
+#path: /media/liu/a2254a68-9f90-4b44-ab2a-ffc55b361238/datas/SAR-TZ-ship  #zh3090
+#path: /home/liu/data/home/liu/workspace/darknet/datas/SAR-TZ-ship  #darknet-524
+path: /media/data4T/datas/SAR-TZ-ship   #709-4090
+#path: E:/datas/SAR-TZ-ship  #windows
+
+train: [patches/images]
+val: val/patches/images
+val_big: images
+# bkgrd: /media/liu/088d8f6e-fca3-4aed-871f-243ad962413b/datas/marine2/aquarium/train/images
+
+# nc: 16
+names: ['bigship']
+mask_dir: [2]
+
+val_epoch: 5
+val_epoch_T: 1
+val_count: 0

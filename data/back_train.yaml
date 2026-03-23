@@ -1,0 +1,26 @@
+# YOLOv5 🚀 by Ultralytics, GPL-3.0 license
+# COCO128 dataset https://www.kaggle.com/ultralytics/coco128 (first 128 images from COCO train2017)
+# Example usage: python train.py --data coco128.yaml
+# parent
+# ├── yolov5
+# └── datasets
+#     └── coco128  ← downloads here
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+#path: /media/liu/088d8f6e-fca3-4aed-871f-243ad962413b/datas/coco128  #4090
+#path: /media/liu/f4854541-32b0-4d00-84a6-13d3a5dd30f2/datas/coco128 #4090-2
+path: /data/datas/yolov5/yolov5-obb/back-train-obb  # 4090x2svr
+
+train: images  # train images (relative to 'path') 128 images
+val: images  # val images (relative to 'path') 128 images
+# test:   # test images (optional)
+
+# nc: 16
+names: ['plane','ship','storage-tank', 'baseball-diamond',
+'tennis-court','basketball-court','ground-track-field', 'harbor',
+'bridge', 'large-vehicle','small-vehicle', 'helicopter', 
+'roundabout', 'soccer-ball-field', 'swimming-pool', 'cc']
+
+
+# Download script/URL (optional)
+# download: https://github.com/ultralytics/yolov5/releases/download/v1.0/coco128.zip

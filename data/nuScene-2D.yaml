@@ -1,0 +1,26 @@
+# YOLOv5 🚀 by Ultralytics, GPL-3.0 license
+# COCO 2017 dataset http://cocodataset.org
+# Example usage: python train.py --data coco.yaml
+# parent
+# ├── yolov5
+# └── datasets
+#     └── coco  ← downloads here
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+#path: /media/liu/088d8f6e-fca3-4aed-871f-243ad962413b/datas/nuScene/yoloallv1.0/v1.0-trainval01_keyframes  #4090
+#path: /media/liu/f4854541-32b0-4d00-84a6-13d3a5dd30f2/datas/nuScene/yoloallv1.0/v1.0-trainval01_keyframes #4090-2
+#path: /data/datas/nuScene/yoloallv1.0/v1.0-trainval01_keyframes #svr 2x4090
+#path: /media/liu/a2254a68-9f90-4b44-ab2a-ffc55b361238/datas/nuScene/yoloallv1.0/v1.0-trainval01_keyframes  #zh3090
+#path: /home/liu/data/home/liu/workspace/darknet/datas/nuScene/yoloallv1.0/v1.0-trainval01_keyframes  darknet-524
+path: /media/data4T/datas/nuScene/yoloallv1.0/v1.0-trainval01_keyframes   #709-4090
+#path: /media/liu/124CDDC24CDDA0B1/datas/nuScene/yoloallv1.0/v1.0-trainval01_keyframes  #3060
+#path: /data/liujin/workspace/data/nuScene/yoloallv1.0/v1.0-trainval01_keyframes  #A100-g1
+#path: /sgg/liujin/workspace/data/nuScene/yoloallv1.0/v1.0-trainval01_keyframes  #A100-sd2
+#path: E:/datas/nuScene/nuScene/yoloallv1.0/v1.0-trainval01_keyframes  #windows
+
+
+train: yolo6cams_vis2_train-xy/images  # train images (relative to 'path') 118287 images
+val: yolo6cams_vis2_val-xy/images  # train images (relative to 'path') 5000 images
+# test: val/images  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+val_big: yolo6cams_vis2_val-xy/images  #val/images_big
+

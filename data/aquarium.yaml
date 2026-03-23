@@ -1,0 +1,13 @@
+# danger
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+#main 2080Ti
+#path: E:\underwater1\dataset\UTDAC2020  # dataset root dir
+#3060 hongwei
+path: /data/home/liu/workspace/work/datas/marine2/aquarium
+train: train/images  # train images (relative to 'path') 118287 images
+val: valid/images  # train images (relative to 'path') 5000 images
+test: test/images  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+
+# Classes
+nc: 7  # number of classes
+names: ['fish','jellyfish','penguin','puffin','shark','starfish','stingray']  # class names

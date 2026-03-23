@@ -1,0 +1,20 @@
+
+# dota768
+# path: /media/liu/088d8f6e-fca3-4aed-871f-243ad962413b/datas/dota1.5  #4090
+path: /media/liu/088d8f6e-fca3-4aed-871f-243ad962413b/yolov5-rot/datas/dota1.5  #4090
+#path: /media/liu/f4854541-32b0-4d00-84a6-13d3a5dd30f2/datas/dota1.5 #4090-2
+#path: /data/datas/dota1.5 #svr 2x4090
+#path: /media/liu/a2254a68-9f90-4b44-ab2a-ffc55b361238/datas/dota1.5  #zh3090
+#path: E:/datas/dota1.5  #windows
+
+train: 43516/images
+val: 7878/images
+val_big: sources/val/images
+
+nc: 16
+names: ['plane','ship','storage-tank', 'baseball-diamond',
+        'tennis-court','basketball-court','ground-track-field', 'harbor',
+        'bridge', 'large-vehicle','small-vehicle', 'helicopter', 
+        'roundabout', 'soccer-ball-field', 'swimming-pool', 'cc']
+
+val_epoch: 0

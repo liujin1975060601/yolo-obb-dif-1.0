@@ -1,0 +1,23 @@
+#sona
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+# path: /media/liu/088d8f6e-fca3-4aed-871f-243ad962413b/datas/sona  #4090
+#path: /media/liu/f4854541-32b0-4d00-84a6-13d3a5dd30f2/datas/sona #4090-2
+#path: /data/datas/sona #svr 2x4090
+#path: /media/liu/a2254a68-9f90-4b44-ab2a-ffc55b361238/datas/sona  #zh3090
+#path: E:/datas/sona  #windows
+#path: /home/liu/data/home/liu/workspace/work/datas/marine2/sona  #524-darknet-3060
+path: H:\datas\marine2\URPC2022_sonar_images_dataset\sona  #main 2080Ti
+#path: H:/datas/dataset/UATD/sona/datas  #main 2080Ti
+
+train: images  # train images (relative to 'path') 128 images
+val: val/images  # val images (relative to 'path') 128 images
+test:  # test images (optional)
+
+# Classes
+nc: 14  # number of classes
+names: ['1', '2', '3', '4', 'human body', 'ball', 'circle cage', 'square cage', 'tyre', 'metal bucket',
+        'cube', 'cylinder', 'plane', 'rov']  # class names
+
+
+# Download script/URL (optional)
+download: https://github.com/ultralytics/yolov5/releases/download/v1.0/coco128.zip

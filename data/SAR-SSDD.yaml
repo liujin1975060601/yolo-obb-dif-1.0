@@ -1,0 +1,20 @@
+#path: /media/liu/088d8f6e-fca3-4aed-871f-243ad962413b/datas/SAR-SSDD SSDD+  #4090
+#path: /media/liu/f4854541-32b0-4d00-84a6-13d3a5dd30f2/datas/SAR-SSDD SSDD+ #4090-2
+#path: /data/datas/SAR-SSDD SSDD+ # 2x409 0svr
+#path: /media/liu/a2254a68-9f90-4b44-ab2a-ffc55b361238/datas/SAR-SSDD SSDD+  #zh3090
+#path: /home/liu/data/home/liu/workspace/darknet/datas/SAR-SSDD SSDD+  darknet-524
+path: /media/data4T/datas/SAR-SSDD SSDD+   #709-4090
+#path: E:/datas/SAR-SSDD SSDD+  #windows
+
+train: [images,val/images]
+val: val/images
+val_big: val/images
+# bkgrd: /media/liu/088d8f6e-fca3-4aed-871f-243ad962413b/datas/marine2/aquarium/train/images
+
+# nc: 16
+# names: ['0','1','2', '3', '4', '5', '6', '7', '8', '9']
+# mask_dir: [2,2,0,0,2,2,2,2,2,2,2,2,0,2,0,0]
+
+val_epoch: 0
+val_epoch_T: 1
+val_count: 0

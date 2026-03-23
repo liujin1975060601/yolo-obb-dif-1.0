@@ -1,0 +1,14 @@
+#path: /media/liu/088d8f6e-fca3-4aed-871f-243ad962413b/datas/voc_segment  #4090
+#path: /media/liu/f4854541-32b0-4d00-84a6-13d3a5dd30f2/datas/voc_segment  #4090-2
+#path: /data/datas/voc_segment #svr 2x4090
+path: /media/liu/f4854541-32b0-4d00-84a6-13d3a5dd30f2/datas/voc_segment_benchmark
+train: train_8498.txt
+val:  val_2857.txt
+
+# Classes
+nc: 20  # number of classes
+names: ['aeroplane', 'bicycle', 'bird', 'boat', 'bottle', 'bus', 'car', 'cat', 'chair', 'cow',
+        'diningtable', 'dog', 'horse', 'motorbike', 'person', 'pottedplant', 'sheep', 'sofa', 'train', 'tvmonitor']
+# class names
+
+val_epoch: 2
